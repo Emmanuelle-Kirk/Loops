@@ -134,11 +134,18 @@ namespace Loops
 
             Console.WriteLine("AFTER Loops");
             //display numbers 1...n -- as a method
-            //"for loop"
+            //order of operations "for loop"
             //1 = declaration/initialization!
+            //2 = check for stop condition
+            //3 = perform loop
+            //4 = increment
+            //5 = Loop!!
+            //can also be for (int i = 1; i <=10; i = i ++)
             for (int i = 1; i <=10; i = i +1)
             {
-                Console.WriteLine(i);
+                Console.Write(i);
+                Console.Write(", ");
+                Console.ReadKey(true);
             }
 
             Console.ReadKey(true);
