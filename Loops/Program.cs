@@ -134,6 +134,7 @@ namespace Loops
 
             Console.WriteLine("AFTER Loops");
             //display numbers 1...n -- as a method
+            //i = index
             //order of operations "for loop"
             //1 = declaration/initialization!
             //2 = check for stop condition
