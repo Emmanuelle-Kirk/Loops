@@ -132,6 +132,15 @@ namespace Loops
             Console.WriteLine(count); count = count + 1;
             Console.WriteLine();
 
+            Console.WriteLine("AFTER Loops");
+            //display numbers 1...n -- as a method
+            //"for loop"
+            //1 = declaration/initialization!
+            for (int i = 1; i <=10; i = i +1)
+            {
+                Console.WriteLine(i);
+            }
+
             Console.ReadKey(true);
         }
     }
